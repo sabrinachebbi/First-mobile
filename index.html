@@ -1,51 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobile first</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  </head>
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile first</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    p{
+      text-align: justify;
+    }
+    #logo {
+      width: 50px;
+      background-color: white;
+    }
+  </style>
+
 <body>
+  <header>
     <!-- Debut Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-        <!-- fin Navbar -->
-      </nav>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark"> 
+      <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img id="logo" src="./assets/img/3151589_bubble_chat_geek_message_icon.svg" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#contact">contact</a>
+          </li>
+          <li class="nav-contact active">
+            <a class="nav-link" href="#gallery">gallery</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+      </div>
+    </nav>
+    </nav>
+    <!-- fin Navbar -->
+    <h1 class="text-center mt-4">Mobile first</h1>
+  </header>
+  <!-- start main -->
+  <main class="container-fluid border">
+    <section class=" mt-4" id="home">
+      <h2 class="mb-4">home</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos fugiat blanditiis suscipit minima voluptatum
+        sint quas voluptas obcaecati, eius eaque esse praesentium, fugit excepturi quisquam officia placeat explicabo
+        soluta rerum eum nam? Praesentium, error quis dolorum id unde earum saepe similique provident perferendis
+        voluptatem ab soluta ipsam molestias voluptates. Qui exercitationem impedit iure consectetur. Placeat asperiores
+        totam enim obcaecati, nulla in saepe error dicta laudantium? Totam, laboriosam at impedit ea error incidunt
+        numquam deleniti quae, nostrum suscipit quos fuga reprehenderit? Nobis tempore reiciendis reprehenderit quo
+        veritatis quaerat amet dignissimos? Quam aspernatur quis officia facere reprehenderit facilis, labore asperiores
+        hic praesentium iure tempora qui voluptatum sunt, alias nobis! Voluptate, molestias aut deleniti atque ab
+        reiciendis harum beatae voluptates fugit quisquam dicta odio, labore quidem mollitia sapiente at neque,
+        reprehenderit voluptas possimus. Quibusdam numquam reiciendis est id aliquam corporis, voluptatum natus
+        repellendus, itaque, ut quam perspiciatis dolores sunt veritatis eaque aperiam consequuntur!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa voluptatem amet deleniti laudantium, itaque
+        provident quisquam nostrum nulla, eius nam quaerat neque aspernatur, fugiat cupiditate vel saepe ratione qui
+        natus! Magnam maiores voluptas inventore adipisci laboriosam dolor quaerat dolore ea soluta nihil eaque repellat
+        culpa earum saepe aut ipsam aperiam laborum, cupiditate libero a quisquam sint amet. Enim quidem omnis harum
+        mollitia excepturi impedit quo modi consectetur repellendus, natus, deserunt ex perferendis optio quas et
+        voluptatum expedita aut delectus provident cumque! Voluptatum delectus non dolore et hic sapiente saepe expedita
+        eaque praesentium. Ea at dolores ipsum quibusdam recusandae maxime possimus omnis ad commodi deleniti optio
+        praesentium tempora aut excepturi totam minima, quae repellendus exercitationem. Ab laboriosam aliquam officia
+        quasi quas nulla id nam vitae cumque? Ducimus dicta totam architecto a, illo vitae voluptatum quibusdam
+        explicabo cupiditate hic eos dolor asperiores molestiae, obcaecati placeat voluptatem, fuga minima? Iste
+        consectetur consequatur dignissimos?</p>
+
+    </section>
+    <section class="mt-4" id="contact">
+      <h2>contact</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi deleniti officia accusamus dolor ipsum
+        consequuntur commodi sapiente, aspernatur nam similique corrupti aliquid asperiores error nihil autem rem
+        recusandae iste rerum mollitia minima maxime odit quae quisquam. Illo, sapiente enim maxime quidem modi est
+        atque a blanditiis fugit maiores culpa tenetur unde tempore delectus vitae adipisci aliquam consequuntur. Omnis,
+        unde! Possimus qui, voluptas nihil, ducimus consequatur eveniet vitae quibusdam facilis est nulla eaque
+        accusantium perspiciatis assumenda natus culpa cum nam aspernatur aliquam suscipit quasi. Quia facilis, amet,
+        doloribus est minus vero incidunt veniam sequi assumenda rem quod! Temporibus, eligendi animi a incidunt
+        laudantium recusandae vitae sed dignissimos alias unde sequi ullam nesciunt nemo quos nihil beatae dolores
+        quidem? Vitae ratione, officia aliquam qui provident, nostrum autem enim itaque recusandae totam eveniet natus
+        assumenda consequuntur consequatur quis beatae, fuga minima sunt fugit deleniti harum. Ipsum maxime, voluptates
+        rerum illo esse ullam est.</p>
+    </section>
+    <section class="mt-4" id="gallery">
+      <h2>gallery</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi repellendus non quia quibusdam laboriosam
+        aliquid unde porro animi exercitationem nostrum, ducimus officiis praesentium velit, ad sint sapiente aut odit
+        cumque laborum ipsa excepturi vero. Non illo laborum blanditiis, dignissimos amet quae dolores numquam incidunt
+        ut vitae eaque aliquid aut dolorum minus quaerat nam velit optio harum molestias, dicta debitis laboriosam. Eum,
+        consequatur accusamus qui neque id natus sint impedit totam nulla dignissimos placeat saepe veritatis laboriosam
+        fuga? Sint tenetur veniam eius adipisci pariatur illum minima excepturi. Impedit delectus iste, deleniti quasi
+        nulla consequuntur repudiandae possimus perferendis adipisci molestias. Eius voluptates dicta quibusdam, ad
+        incidunt tenetur quod, asperiores odit nisi similique modi molestiae dolorem sint ex ipsum quae recusandae
+        facilis excepturi doloremque ullam cupiditate iure? Cupiditate, molestiae tenetur tempore nesciunt dolores
+        debitis accusamus hic numquam iure maxime itaque sapiente ipsam accusantium aspernatur nostrum, amet dolorum et,
+        excepturi temporibus autem. Qui, laboriosam?</p>
+    </section>
+  </main>
+  <!-- end main  -->
+  <!-- start footer -->
+  <footer class=" mt-4 p-4 bg-dark text-white">
+    <p class="text-center">&copy;CCI lyon</p>
+  </footer>
+  <!-- end footer -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
